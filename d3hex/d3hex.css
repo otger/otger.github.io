@@ -1,0 +1,46 @@
+/* To style chart */
+
+.hexagon {
+    stroke-width: 5px;
+    stroke: rgb(200, 200, 200);
+    /*fill: rgb(50,50,50);*/
+}
+
+.barsColorScale {
+    stroke-width: 0px;
+    stroke: rgb(200, 200, 200);
+}
+
+.barsColorScaleText {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 35px;
+    fill: rgb(70, 75, 75);
+}
+
+.chartTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    fill: rgb(70, 75, 75);
+}
+
+.chartDate {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    fill: rgb(70, 75, 75);
+}
+
+.toolTipValue {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    fill: rgb(70, 75, 75);
+}
+
+.toolTipPosition {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    fill: rgb(70, 75, 75);
+}
