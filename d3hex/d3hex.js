@@ -485,9 +485,32 @@ class ModuleChart {
 
 
 let m1 = new ModuleChart("BackPlanes Temperature", "bp_temp", "#container1", null);
-let m2 = new ModuleChart("BackPlanes Humidity", "bp_hum", "#container2", null);
-
-m2.changeColorScale([0, 20, 75, 100], ['rgb(160,46,160)', 'rgb(31,193,79)', 'rgb(94,132,105)', 'rgb(188, 1, 1)'])
-
 var timer = setInterval(m1.fakeValues, 5000, m1, [-20, 60]);
-var timer = setInterval(m2.fakeValues, 5000, m2, [0, 100]);
+
+let m2 = new ModuleChart("BackPlanes Humidity", "bp_hum2", "#container2", null);
+m2.changeColorScale([0, 20, 75, 100], ['rgb(160,46,160)', 'rgb(31,193,79)', 'rgb(94,132,105)', 'rgb(188, 1, 1)'])
+setInterval(m2.fakeValues, 5000, m2, [0, 100]);
+
+let m3 = new ModuleChart("Invented Metric", "bp_hum3", "#container3", null);
+m3.changeColorScale([0, 10], ['rgb(94,132,105)', 'rgb(188, 1, 1)'])
+setInterval(m3.fakeValues, 3000, m3, [0, 10]);
+
+let m4 = new ModuleChart("Invented Metric2", "bp_hum4", "#container4", null);
+m4.changeColorScale([-10, 0, 10], ['rgb(160,46,160)', 'rgb(94,132,105)', 'rgb(188, 1, 1)'])
+setInterval(m4.fakeValues, 3000, m4, [-10, 10]);
+
+let m5 = new ModuleChart("Invented Metric3", "bp_hum5", "#container5", null);
+m5.changeColorScale([0, 10], ['rgb(31,193,79)', 'rgb(188, 1, 1)'])
+setInterval(m5.fakeValues, 3000, m5, [0, 10]);
+
+let m6 = new ModuleChart("Invented Metric4", "bp_hum6", "#container6", null);
+m6.changeColorScale([0, 10], ['rgb(94,132,105)', 'rgb(188, 1, 1)'])
+setInterval(m6.fakeValues, 3000, m6, [0, 10]);
+
+let m7 = new ModuleChart("Invented Metric5", "bp_hum7", "#container7", null);
+m7.changeColorScale([0, 10], ['rgb(94,132,105)', 'rgb(188, 1, 1)'])
+setInterval(m7.fakeValues, 3000, m7, [0, 10]);
+
+let m8 = new ModuleChart("Invented Metric6", "bp_hum8", "#container8", null);
+m8.changeColorScale([-10, 20], ['rgb(94,132,105)', 'rgb(188, 1, 1)'])
+setInterval(m8.fakeValues, 3000, m8, [-10, 20]);
