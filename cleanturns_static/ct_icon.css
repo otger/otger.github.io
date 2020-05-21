@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'clean_turns';
-  src:  url('https://127.0.0.1:5000/static/fonts/clean_turns.eot?31q49z');
-  src:  url('https://127.0.0.1:5000/static/fonts/clean_turns.eot?31q49z#iefix') format('embedded-opentype'),
-    url('https://127.0.0.1:5000/static/fonts/clean_turns.ttf?31q49z') format('truetype'),
-    url('https://127.0.0.1:5000/static/fonts/clean_turns.woff?31q49z') format('woff'),
-    url('https://127.0.0.1:5000/static/fonts/clean_turns.svg?31q49z#clean_turns') format('svg');
+  src:  url('fonts/clean_turns.eot?31q49z');
+  src:  url('fonts/clean_turns.eot?31q49z#iefix') format('embedded-opentype'),
+    url('fonts/clean_turns.ttf?31q49z') format('truetype'),
+    url('fonts/clean_turns.woff?31q49z') format('woff'),
+    url('fonts/clean_turns.svg?31q49z#clean_turns') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
